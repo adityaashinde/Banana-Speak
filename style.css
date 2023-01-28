@@ -16,7 +16,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* background: url(minions.jpg); */
+    background: url(minion.jpg);
     background-size: cover;
 }
 
@@ -24,7 +24,7 @@ header {
     text-align: center;
     margin: 1.5rem;
     text-decoration: uppercase;
-    color: black;
+    color: white;
 }
 
 h1{
