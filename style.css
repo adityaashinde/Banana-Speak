@@ -16,6 +16,63 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: url();
+    /* background: url(minions.jpg); */
     background-size: cover;
+}
+
+header {
+    text-align: center;
+    margin: 1.5rem;
+    text-decoration: uppercase;
+    color: black;
+}
+
+h1{
+    margin: 0.5rem;
+}
+
+main {
+    margin: 1rem;
+}
+
+#txt-input, #output {
+    margin:auto;
+    display: block;
+    padding: 1rem;
+    width: 80%;
+    height: 20vh;
+    font-size: 1.5rem;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    opacity: 0.7;
+}
+
+button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Caveat', cursive;
+    text-transform: uppercase;
+    border-radius: 0.3rem;
+    background-color: var(--grey);
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: var(--grey);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+fooetr a, .github a {
+    color: whitesmoke;
 }
