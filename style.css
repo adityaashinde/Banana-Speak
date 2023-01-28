@@ -1,0 +1,21 @@
+@import url ('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+:root {
+    --background: rgb(255, 233,111);
+    --grey: rgb(51, 51, 51);
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Caveat',cursive;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url();
+    background-size: cover;
+}
