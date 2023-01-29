@@ -9,12 +9,12 @@ const getURL = (text) => `${URL}?text=${text}`;
 const errorHandler = (error) => alert(`Error occured: ${error}`);
 
 form.addEventListener("submit", (e) => {
-e.preventDefault();
+  e.preventDefault();
 
-const inputText = textInput.value;
+  const inputText = textInput.value;
 
-fetch(getURL(inputText))
-.then((response) => response.json())
-.then((json) => (output.innerText = json.contents.translated))
-.catch(errorHandler);
+  fetch(getURL(inputText))
+    .then((response) => response.json())
+    .then((json) => (output.innerText = json.contents.translated))
+    .catch(errorHandler);
 });
